@@ -37,5 +37,10 @@ import {bootstrap, wrapInkComponent} from 'ink-on-reactcli';
 import ReactCLI from 'react-cli-renderer';
 import _InkSpinner from 'ink-spinner';
 const InkSpinner = wrapInkComponent(_InkSpinner);
-ReactCLI(<MyAppUI></MyAppUI>);
+class MyAppUI extends React.Component {
+    render() {
+        return <Section><InkSpinner /></Section>;
+    }
+}
+ReactCLI(<MyAppUI />);
 ```
