@@ -43,7 +43,9 @@
     "ink-text-animation": "^0.1.0",
     "ink-text-input": "^2.0.0",
     "react": "^16.7.0",
-    "react-cli-renderer": "^1.5.0"
+    "react-cli-renderer": "^1.5.0",
+    "ts-node-to": "^0.0.2",
+    "typescript": "^3.2.4"
   },
   "files": [
     ".editorconfig",
