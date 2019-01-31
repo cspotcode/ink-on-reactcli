@@ -35,7 +35,7 @@ class MyReactCLIApp extends React.Component {
           </Section>
         </Section>
         <Section border={{ horizontal: "-", vertical: "|" }} align="center">
-                <InkSpinner type="dots"></InkSpinner>
+                This is a third-party Ink component, ink-spinner: <InkSpinner type="dots"></InkSpinner>
         </Section>
       </Section>
     );
