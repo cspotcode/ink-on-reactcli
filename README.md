@@ -6,6 +6,17 @@ works with React, and thus with ReactCLI, but not with Ink, which is not built
 on top of React.  However, ReactCLI does not have the rich selection of
 Components that have been built for Ink.
 
+If we can trick third-party Ink components into running against React instead of
+Ink, then we can use them in our ReactCLI apps.
+
+# How?
+
+We inject ourselves into node's require cache, replacing Ink's custom
+implementations of `h` (`createElement`) and `Component`.  Third-party
+Ink components, and Ink's built-in Components, will run against these
+injections instead of Ink.  With any luck, they'll behave like normal
+React components.
+
 # Example
 
 Run the example via:
