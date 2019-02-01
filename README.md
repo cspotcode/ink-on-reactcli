@@ -1,9 +1,9 @@
 Experimental hack that allows using [Ink](https://github.com/vadimdemedes/ink)
 components with [ReactCLI](https://github.com/mgrip/react-cli) and React.
 
-> *See also: Ink is moving to React with their next version.*
-> https://github.com/vadimdemedes/ink/issues/90
-> https://github.com/mgrip/react-cli/issues/10
+> *See also: Ink is moving to React with their next version.*  
+> https://github.com/vadimdemedes/ink/issues/90  
+> https://github.com/mgrip/react-cli/issues/10  
 > https://github.com/mgrip/react-cli/issues/8
 
 The goal is to use things like MobX with pre-existing Ink components.  MobX
